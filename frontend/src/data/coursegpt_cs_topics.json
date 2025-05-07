@@ -1,0 +1,909 @@
+[
+  {
+    "topic": "Operating Systems",
+    "overview": "An Operating System (OS) is system software that manages computer hardware and software resources, providing common services for computer programs.",
+    "keyConcepts": [
+      "Processes and Threads",
+      "Memory Management",
+      "File Systems",
+      "CPU Scheduling Algorithms",
+      "Deadlocks and Synchronization"
+    ],
+    "learningObjectives": [
+      "Explain the role and functions of an Operating System",
+      "Understand how OS manages memory, processes, and files",
+      "Analyze different scheduling and synchronization strategies"
+    ],
+    "quiz": [
+      {
+        "question": "What is the main role of an Operating System?",
+        "options": [
+          "Manage applications",
+          "Control hardware directly",
+          "Provide services to applications and users",
+          "Compile programs"
+        ],
+        "answer": "Provide services to applications and users"
+      },
+      {
+        "question": "Which of the following is a CPU scheduling algorithm?",
+        "options": [
+          "FIFO",
+          "Round Robin",
+          "Quick Sort",
+          "Dijkstra's Algorithm"
+        ],
+        "answer": "Round Robin"
+      }
+    ],
+    "slides": [
+      "What is an Operating System?",
+      "Components of an OS",
+      "Types of Operating Systems",
+      "Scheduling and Process Management",
+      "Memory and File Systems",
+      "Real-world Applications"
+    ]
+  },
+  {
+    "topic": "Computer Networks",
+    "overview": "Computer Networks are systems of interconnected devices that can communicate and share resources using protocols and communication standards.",
+    "keyConcepts": [
+      "OSI and TCP/IP Models",
+      "Network Devices",
+      "IP Addressing and Routing",
+      "Transport Protocols (TCP/UDP)",
+      "Network Security"
+    ],
+    "learningObjectives": [
+      "Describe the layers of the OSI and TCP/IP models",
+      "Explain how data is transmitted across networks",
+      "Understand the basics of IP addressing and routing"
+    ],
+    "quiz": [
+      {
+        "question": "Which layer of the OSI model is responsible for routing?",
+        "options": [
+          "Data Link Layer",
+          "Transport Layer",
+          "Network Layer",
+          "Application Layer"
+        ],
+        "answer": "Network Layer"
+      },
+      {
+        "question": "What protocol provides reliable, connection-oriented transmission?",
+        "options": [
+          "UDP",
+          "TCP",
+          "ICMP",
+          "ARP"
+        ],
+        "answer": "TCP"
+      }
+    ],
+    "slides": [
+      "Introduction to Networks",
+      "Types of Networks (LAN, WAN, etc.)",
+      "OSI vs TCP/IP Model",
+      "IP Addressing and Subnetting",
+      "Routing and Switching",
+      "Network Security Basics"
+    ]
+  },
+  {
+    "topic": "Computer Fundamentals",
+    "overview": "Computer Fundamentals is the study of the basic concepts of computers including hardware, software, data processing, and the role of computers in modern society.",
+    "keyConcepts": [
+      "Input and Output Devices",
+      "Storage Devices",
+      "Types of Software",
+      "Number Systems",
+      "Basic Networking Concepts"
+    ],
+    "learningObjectives": [
+      "Define basic computer components and their functions",
+      "Distinguish between system and application software",
+      "Understand how computers process and store data"
+    ],
+    "quiz": [
+      {
+        "question": "Which of the following is an input device?",
+        "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+        "answer": "Keyboard"
+      },
+      {
+        "question": "What is the binary equivalent of decimal number 5?",
+        "options": ["1010", "101", "100", "110"],
+        "answer": "101"
+      }
+    ],
+    "slides": [
+      "What is a Computer?",
+      "Basic Components (CPU, Memory, I/O)",
+      "Software Types: System vs Application",
+      "Number Systems and Data Representation",
+      "Real-life Applications of Computers"
+    ]
+  },
+  {
+    "topic": "Computer Fundamentals",
+    "overview": "Computer Fundamentals introduces the basics of computers including hardware, software, and how computers process information.",
+    "keyConcepts": [
+      "Input and Output Devices",
+      "Central Processing Unit (CPU)",
+      "Primary and Secondary Storage",
+      "System Software vs Application Software",
+      "Basic Troubleshooting"
+    ],
+    "learningObjectives": [
+      "Identify core hardware components of a computer",
+      "Differentiate between system and application software",
+      "Explain how data flows through computer systems"
+    ],
+    "quiz": [
+      {
+        "question": "Which of the following is an input device?",
+        "options": ["Monitor", "Keyboard", "Printer", "Speaker"],
+        "answer": "Keyboard"
+      },
+      {
+        "question": "What is the main function of the CPU?",
+        "options": ["Store data", "Display graphics", "Process instructions", "Print documents"],
+        "answer": "Process instructions"
+      }
+    ],
+    "slides": [
+      "What are Computer Fundamentals?",
+      "Hardware vs Software",
+      "Input/Output Devices",
+      "Memory and Storage",
+      "Basic Computer Architecture",
+      "Common Operating Systems"
+    ]
+  },
+  {
+    "topic": "Digital Logic Design",
+    "overview": "Digital Logic Design involves the study of binary systems and the design of digital circuits using logic gates.",
+    "keyConcepts": [
+      "Number Systems (Binary, Decimal, Hex)",
+      "Logic Gates (AND, OR, NOT, XOR)",
+      "Boolean Algebra",
+      "Combinational Circuits",
+      "Sequential Circuits"
+    ],
+    "learningObjectives": [
+      "Convert numbers between binary and decimal systems",
+      "Design simple logic circuits using Boolean expressions",
+      "Differentiate between combinational and sequential logic"
+    ],
+    "quiz": [
+      {
+        "question": "Which logic gate gives a true output only when all inputs are true?",
+        "options": ["OR", "AND", "XOR", "NOT"],
+        "answer": "AND"
+      },
+      {
+        "question": "What is the binary equivalent of decimal 10?",
+        "options": ["1010", "1100", "1001", "1111"],
+        "answer": "1010"
+      }
+    ],
+    "slides": [
+      "Introduction to Digital Logic",
+      "Binary Number Systems",
+      "Logic Gates and Truth Tables",
+      "Boolean Expressions",
+      "Simplifying Logic with Karnaugh Maps",
+      "Designing Basic Circuits"
+    ]
+  },
+  {
+    "topic": "Data Structures",
+    "overview": "Data Structures are specialized formats for organizing, processing, and storing data efficiently for access and modification.",
+    "keyConcepts": [
+      "Arrays and Linked Lists",
+      "Stacks and Queues",
+      "Trees and Binary Search Trees",
+      "Graphs",
+      "Hashing"
+    ],
+    "learningObjectives": [
+      "Understand linear and nonlinear data structures",
+      "Implement common data structures in code",
+      "Analyze time and space complexity of operations"
+    ],
+    "quiz": [
+      {
+        "question": "Which data structure follows the Last In First Out principle?",
+        "options": ["Queue", "Stack", "Array", "Tree"],
+        "answer": "Stack"
+      },
+      {
+        "question": "Which data structure is ideal for implementing recursion?",
+        "options": ["Queue", "Stack", "Linked List", "Graph"],
+        "answer": "Stack"
+      }
+    ],
+    "slides": [
+      "What are Data Structures?",
+      "Linear Structures: Arrays, Lists",
+      "Stacks and Queues",
+      "Trees and Graphs",
+      "Hashing and Hash Tables",
+      "Use Cases and Performance"
+    ]
+  },
+  {
+    "topic": "Algorithms",
+    "overview": "Algorithms are step-by-step procedures or formulas for solving problems, often used in data processing and automated reasoning.",
+    "keyConcepts": [
+      "Sorting Algorithms (Bubble, Merge, Quick)",
+      "Searching Algorithms (Linear, Binary)",
+      "Recursion",
+      "Greedy Algorithms",
+      "Dynamic Programming"
+    ],
+    "learningObjectives": [
+      "Implement basic sorting and searching algorithms",
+      "Understand recursion and its applications",
+      "Apply greedy and dynamic programming to optimization problems"
+    ],
+    "quiz": [
+      {
+        "question": "Which sorting algorithm has the best average-case time complexity?",
+        "options": ["Bubble Sort", "Quick Sort", "Merge Sort", "Selection Sort"],
+        "answer": "Merge Sort"
+      },
+      {
+        "question": "What does a binary search require?",
+        "options": ["Sorted input", "Linked List", "Unordered data", "Recursive functions only"],
+        "answer": "Sorted input"
+      }
+    ],
+    "slides": [
+      "Introduction to Algorithms",
+      "Sorting Techniques",
+      "Searching Techniques",
+      "Recursion Explained",
+      "Greedy vs Dynamic Programming",
+      "Complexity Analysis"
+    ]
+  },
+  {
+    "topic": "Discrete Mathematics",
+    "overview": "Discrete Mathematics includes study of mathematical structures that are fundamentally discrete rather than continuous, used widely in computer science.",
+    "keyConcepts": [
+      "Set Theory",
+      "Logic and Propositions",
+      "Relations and Functions",
+      "Graphs and Trees",
+      "Combinatorics and Probability"
+    ],
+    "learningObjectives": [
+      "Apply logic and set theory to computer science problems",
+      "Understand graph structures and their applications",
+      "Use combinatorics for analyzing probabilities"
+    ],
+    "quiz": [
+      {
+        "question": "Which of the following is a tautology?",
+        "options": ["P ∧ ¬P", "P ∨ ¬P", "¬(P ∨ Q)", "P ∧ Q"],
+        "answer": "P ∨ ¬P"
+      },
+      {
+        "question": "How many subsets does a set with 3 elements have?",
+        "options": ["6", "7", "8", "9"],
+        "answer": "8"
+      }
+    ],
+    "slides": [
+      "Overview of Discrete Math",
+      "Set Theory Basics",
+      "Propositional Logic",
+      "Functions and Relations",
+      "Graphs and Trees",
+      "Counting and Probability"
+    ]
+  },
+  {
+    "topic": "C Programming",
+    "overview": "C is a powerful general-purpose programming language known for its efficiency and control. It is widely used in system programming and embedded systems.",
+    "keyConcepts": [
+      "Data Types and Operators",
+      "Control Structures (if, switch, loops)",
+      "Functions and Recursion",
+      "Pointers and Memory Management",
+      "Structures and File I/O"
+    ],
+    "learningObjectives": [
+      "Write and compile basic C programs",
+      "Use pointers effectively for memory operations",
+      "Understand structure-based programming"
+    ],
+    "quiz": [
+      {
+        "question": "Which header file is required for printf() and scanf()?",
+        "options": [
+          "conio.h",
+          "string.h",
+          "stdio.h",
+          "stdlib.h"
+        ],
+        "answer": "stdio.h"
+      },
+      {
+        "question": "What does the '*' symbol represent in C?",
+        "options": [
+          "Multiplication",
+          "Address-of operator",
+          "Pointer",
+          "None of the above"
+        ],
+        "answer": "Pointer"
+      }
+    ],
+    "slides": [
+      "Introduction to C",
+      "Variables, Data Types, and Operators",
+      "Control Flow and Loops",
+      "Functions and Recursion",
+      "Pointers and Memory",
+      "Structures and File Handling"
+    ]
+  },
+  {
+    "topic": "Java Programming",
+    "overview": "Java is a high-level, object-oriented programming language known for its portability and strong memory management. It runs on the Java Virtual Machine (JVM).",
+    "keyConcepts": [
+      "Classes and Objects",
+      "Inheritance and Polymorphism",
+      "Interfaces and Abstract Classes",
+      "Exception Handling",
+      "Collections Framework"
+    ],
+    "learningObjectives": [
+      "Understand object-oriented programming concepts",
+      "Develop reusable Java classes and interfaces",
+      "Implement exception handling and collections"
+    ],
+    "quiz": [
+      {
+        "question": "What is JVM in Java?",
+        "options": [
+          "Java Variable Machine",
+          "Java Virtual Machine",
+          "Java Version Manager",
+          "Java Visual Mode"
+        ],
+        "answer": "Java Virtual Machine"
+      },
+      {
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": [
+          "this",
+          "super",
+          "import",
+          "extends"
+        ],
+        "answer": "extends"
+      }
+    ],
+    "slides": [
+      "Overview of Java",
+      "OOP Concepts: Class, Object, Inheritance",
+      "Polymorphism and Encapsulation",
+      "Exception Handling",
+      "Java Collections",
+      "Building Java Applications"
+    ]
+  },
+  {
+    "topic": "Python Programming",
+    "overview": "Python is a versatile, high-level programming language known for its readability and broad standard library. It is popular for web development, data science, and automation.",
+    "keyConcepts": [
+      "Variables and Data Types",
+      "Control Structures (if, for, while)",
+      "Functions and Modules",
+      "Object-Oriented Programming",
+      "Libraries (NumPy, Pandas)"
+    ],
+    "learningObjectives": [
+      "Write Python scripts using functions and control flow",
+      "Use built-in data structures and libraries",
+      "Understand basic OOP in Python"
+    ],
+    "quiz": [
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+          "func",
+          "define",
+          "def",
+          "function"
+        ],
+        "answer": "def"
+      },
+      {
+        "question": "What is the output of: len(['a', 'b', 'c'])?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "3"
+      }
+    ],
+    "slides": [
+      "Introduction to Python",
+      "Control Flow and Loops",
+      "Functions and Modules",
+      "OOP in Python",
+      "Popular Libraries (NumPy, Pandas)",
+      "Python in Real-World Projects"
+    ]
+  },
+  {
+    "topic": "Artificial Intelligence",
+    "overview": "Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think, reason, and learn.",
+    "keyConcepts": [
+      "Intelligent Agents",
+      "Search Algorithms",
+      "Knowledge Representation",
+      "Machine Learning",
+      "Natural Language Processing"
+    ],
+    "learningObjectives": [
+      "Understand the fundamentals and goals of AI",
+      "Differentiate between weak and strong AI",
+      "Explore key AI techniques like search and learning"
+    ],
+    "quiz": [
+      {
+        "question": "What is the primary goal of Artificial Intelligence?",
+        "options": [
+          "Store data efficiently",
+          "Simulate human intelligence",
+          "Create new hardware",
+          "None of the above"
+        ],
+        "answer": "Simulate human intelligence"
+      },
+      {
+        "question": "Which of the following is a common AI search technique?",
+        "options": [
+          "Breadth-First Search",
+          "Quick Sort",
+          "Dijkstra’s Algorithm",
+          "Bubble Sort"
+        ],
+        "answer": "Breadth-First Search"
+      }
+    ],
+    "slides": [
+      "What is Artificial Intelligence?",
+      "Types of AI (Reactive, Limited Memory, etc.)",
+      "Search Techniques and Problem Solving",
+      "Machine Learning & Expert Systems",
+      "Applications of AI in Real World"
+    ]
+  },
+  {
+    "topic": "Machine Learning",
+    "overview": "Machine Learning is a subset of AI focused on building systems that learn from data and improve performance without being explicitly programmed.",
+    "keyConcepts": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Regression and Classification",
+      "Model Evaluation",
+      "Overfitting and Underfitting"
+    ],
+    "learningObjectives": [
+      "Understand the types of machine learning approaches",
+      "Learn how models are trained on datasets",
+      "Evaluate model performance and accuracy"
+    ],
+    "quiz": [
+      {
+        "question": "Which of the following is a supervised learning task?",
+        "options": [
+          "Clustering",
+          "Classification",
+          "Dimensionality Reduction",
+          "Anomaly Detection"
+        ],
+        "answer": "Classification"
+      },
+      {
+        "question": "What does overfitting refer to?",
+        "options": [
+          "Model performing well on both training and test data",
+          "Model generalizing well",
+          "Model performing too well on training data but poorly on new data",
+          "None of the above"
+        ],
+        "answer": "Model performing too well on training data but poorly on new data"
+      }
+    ],
+    "slides": [
+      "What is Machine Learning?",
+      "Types: Supervised vs Unsupervised",
+      "Model Training & Testing",
+      "Overfitting & Model Generalization",
+      "Popular ML Applications"
+    ]
+  }
+,
+{
+  "topic": "Deep Learning",
+  "overview": "Deep Learning is a branch of machine learning based on artificial neural networks with representation learning from large amounts of data.",
+  "keyConcepts": [
+    "Neural Networks",
+    "Backpropagation",
+    "Activation Functions",
+    "Convolutional Neural Networks (CNNs)",
+    "Recurrent Neural Networks (RNNs)"
+  ],
+  "learningObjectives": [
+    "Understand how neural networks are structured and trained",
+    "Explain the purpose of various activation functions",
+    "Explore CNNs and RNNs for specialized tasks"
+  ],
+  "quiz": [
+    {
+      "question": "What is backpropagation used for?",
+      "options": [
+        "Forward computation",
+        "Weight initialization",
+        "Optimizing model weights via error minimization",
+        "Converting data to binary"
+      ],
+      "answer": "Optimizing model weights via error minimization"
+    },
+    {
+      "question": "Which architecture is commonly used for image recognition?",
+      "options": [
+        "RNN",
+        "CNN",
+        "LSTM",
+        "K-Means"
+      ],
+      "answer": "CNN"
+    }
+  ],
+  "slides": [
+    "What is Deep Learning?",
+    "Structure of a Neural Network",
+    "Training using Backpropagation",
+    "CNNs for Image Processing",
+    "RNNs for Sequence Data",
+    "Real-world Applications"
+  ]
+}
+,{
+  "topic": "Natural Language Processing",
+  "overview": "Natural Language Processing (NLP) enables computers to understand, interpret, and generate human language.",
+  "keyConcepts": [
+    "Tokenization",
+    "Part-of-Speech Tagging",
+    "Named Entity Recognition",
+    "Sentiment Analysis",
+    "Language Models"
+  ],
+  "learningObjectives": [
+    "Understand the basic steps in NLP pipelines",
+    "Explore popular NLP tasks and their real-world uses",
+    "Learn how machines process text data"
+  ],
+  "quiz": [
+    {
+      "question": "What does tokenization refer to?",
+      "options": [
+        "Generating a password",
+        "Splitting text into smaller units like words or phrases",
+        "Encrypting text",
+        "Creating machine code"
+      ],
+      "answer": "Splitting text into smaller units like words or phrases"
+    },
+    {
+      "question": "Which NLP task identifies the subject of a sentence?",
+      "options": [
+        "Stemming",
+        "Tokenization",
+        "Named Entity Recognition",
+        "Part-of-Speech Tagging"
+      ],
+      "answer": "Part-of-Speech Tagging"
+    }
+  ],
+  "slides": [
+    "Introduction to NLP",
+    "Steps in an NLP Pipeline",
+    "Key Tasks: Tokenization, POS Tagging, etc.",
+    "Sentiment Analysis & Chatbots",
+    "Modern NLP Models (BERT, GPT)",
+    "Applications in Industry"
+  ]
+}
+,{
+  "topic": "Computer Vision",
+  "overview": "Computer Vision is a field of AI that enables computers to interpret and process visual information from the world, such as images and videos.",
+  "keyConcepts": [
+    "Image Processing",
+    "Feature Detection",
+    "Object Recognition",
+    "Convolutional Neural Networks (CNNs)",
+    "Image Classification and Segmentation"
+  ],
+  "learningObjectives": [
+    "Understand how machines analyze visual data",
+    "Explore image processing techniques and CNNs",
+    "Identify real-world applications of computer vision"
+  ],
+  "quiz": [
+    {
+      "question": "What is the primary task of computer vision?",
+      "options": [
+        "Speech translation",
+        "Visual data understanding",
+        "Internet browsing",
+        "Database querying"
+      ],
+      "answer": "Visual data understanding"
+    },
+    {
+      "question": "Which neural network type is commonly used in computer vision?",
+      "options": [
+        "Recurrent Neural Networks",
+        "Linear Regression",
+        "Convolutional Neural Networks",
+        "Decision Trees"
+      ],
+      "answer": "Convolutional Neural Networks"
+    }
+  ],
+  "slides": [
+    "What is Computer Vision?",
+    "Image Processing Basics",
+    "Object Detection Techniques",
+    "CNN Architecture",
+    "Applications: Face Recognition, Self-driving Cars",
+    "Future of Computer Vision"
+  ]
+}
+,{
+  "topic": "HTML, CSS, JS",
+  "overview": "HTML, CSS, and JavaScript are the core technologies of web development. HTML structures content, CSS styles it, and JavaScript adds interactivity.",
+  "keyConcepts": [
+    "HTML Elements and Tags",
+    "CSS Selectors and Layout",
+    "JavaScript Functions and Events",
+    "DOM Manipulation",
+    "Responsive Web Design"
+  ],
+  "learningObjectives": [
+    "Build and structure a basic web page using HTML",
+    "Apply styling with CSS for visual presentation",
+    "Add dynamic behavior using JavaScript"
+  ],
+  "quiz": [
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Trainer Marking Language",
+        "Hyper Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Transfer Management Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Which language is used to make a web page interactive?",
+      "options": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Python"
+      ],
+      "answer": "JavaScript"
+    }
+  ],
+  "slides": [
+    "Introduction to Web Development",
+    "HTML: Structure and Semantics",
+    "CSS: Styling and Layouts",
+    "JavaScript Basics",
+    "DOM and Events",
+    "Creating Responsive Pages"
+  ]
+}
+,{
+  "topic": "React & Node.js",
+  "overview": "React is a front-end JavaScript library for building user interfaces, while Node.js is a back-end JavaScript runtime used to build scalable server-side applications.",
+  "keyConcepts": [
+    "JSX and Components in React",
+    "State and Props",
+    "Hooks and Lifecycle Methods",
+    "Express.js in Node.js",
+    "API Routing and Middleware"
+  ],
+  "learningObjectives": [
+    "Build modular UI components using React",
+    "Manage application state with hooks",
+    "Develop RESTful APIs using Node.js and Express"
+  ],
+  "quiz": [
+    {
+      "question": "Which of the following is a feature of React?",
+      "options": [
+        "Two-way data binding",
+        "Template-based rendering",
+        "Component-based architecture",
+        "Built-in database"
+      ],
+      "answer": "Component-based architecture"
+    },
+    {
+      "question": "Which Node.js module is commonly used to create servers?",
+      "options": [
+        "http",
+        "url",
+        "fs",
+        "path"
+      ],
+      "answer": "http"
+    }
+  ],
+  "slides": [
+    "React Overview and JSX Syntax",
+    "Component Design and Props",
+    "Using Hooks for State Management",
+    "Node.js and the Event Loop",
+    "Express.js API Basics",
+    "Connecting React with Node Backend"
+  ]
+}
+,{
+  "topic": "Full-Stack Development",
+  "overview": "Full-Stack Development involves building both the front-end and back-end of web applications. It requires proficiency in user interface design, server logic, and database management.",
+  "keyConcepts": [
+    "Frontend Technologies (HTML, CSS, JS, React)",
+    "Backend Technologies (Node.js, Express)",
+    "Databases (MongoDB, SQL)",
+    "RESTful API Integration",
+    "Authentication and Deployment"
+  ],
+  "learningObjectives": [
+    "Design and develop end-to-end web applications",
+    "Integrate frontend and backend using APIs",
+    "Deploy full-stack apps to platforms like Vercel or Heroku"
+  ],
+  "quiz": [
+    {
+      "question": "What does a full-stack developer work on?",
+      "options": [
+        "Only the UI",
+        "Only databases",
+        "Both client and server sides",
+        "Only testing"
+      ],
+      "answer": "Both client and server sides"
+    },
+    {
+      "question": "Which tool is commonly used for full-stack deployment?",
+      "options": [
+        "Vercel",
+        "Figma",
+        "Excel",
+        "Photoshop"
+      ],
+      "answer": "Vercel"
+    }
+  ],
+  "slides": [
+    "What is Full-Stack Development?",
+    "Frontend and Backend Roles",
+    "Database Connectivity",
+    "Creating REST APIs",
+    "User Authentication",
+    "Hosting and Deployment"
+  ]
+}
+,{
+  "topic": "Mobile App Development",
+  "overview": "Mobile App Development involves creating software applications that run on mobile devices. It includes native development for iOS/Android or using cross-platform tools.",
+  "keyConcepts": [
+    "Native vs Cross-Platform Development",
+    "UI/UX Design Principles",
+    "React Native / Flutter",
+    "Accessing Device Features (Camera, GPS)",
+    "App Store Deployment"
+  ],
+  "learningObjectives": [
+    "Understand different approaches to mobile app development",
+    "Design user-friendly mobile interfaces",
+    "Build and deploy functional mobile apps"
+  ],
+  "quiz": [
+    {
+      "question": "Which framework allows writing mobile apps using JavaScript?",
+      "options": [
+        "Kotlin",
+        "Swift",
+        "React Native",
+        "Xcode"
+      ],
+      "answer": "React Native"
+    },
+    {
+      "question": "What is the main advantage of cross-platform development?",
+      "options": [
+        "Better graphics",
+        "Higher cost",
+        "Faster for only Android",
+        "Single codebase for multiple platforms"
+      ],
+      "answer": "Single codebase for multiple platforms"
+    }
+  ],
+  "slides": [
+    "Overview of Mobile App Development",
+    "Native vs Cross-Platform Tools",
+    "Popular Frameworks (Flutter, React Native)",
+    "Designing for Touch Interfaces",
+    "Testing and Debugging Apps",
+    "Publishing to Play Store and App Store"
+  ]
+}
+,{
+  "topic": "REST APIs",
+  "overview": "REST APIs (Representational State Transfer) allow communication between clients and servers using HTTP requests. They follow principles like statelessness and resource-based access.",
+  "keyConcepts": [
+    "HTTP Methods (GET, POST, PUT, DELETE)",
+    "Endpoints and Resources",
+    "Status Codes and Responses",
+    "Authentication (JWT, API Keys)",
+    "CRUD Operations"
+  ],
+  "learningObjectives": [
+    "Build RESTful APIs using Express or similar frameworks",
+    "Handle HTTP requests and responses",
+    "Secure APIs using authentication methods"
+  ],
+  "quiz": [
+    {
+      "question": "What does the GET method do in REST?",
+      "options": [
+        "Creates data",
+        "Retrieves data",
+        "Updates data",
+        "Deletes data"
+      ],
+      "answer": "Retrieves data"
+    },
+    {
+      "question": "Which status code indicates a successful POST request?",
+      "options": [
+        "200 OK",
+        "201 Created",
+        "404 Not Found",
+        "500 Internal Server Error"
+      ],
+      "answer": "201 Created"
+    }
+  ],
+  "slides": [
+    "What is a REST API?",
+    "Core HTTP Methods",
+    "Designing RESTful Endpoints",
+    "Handling Requests and Responses",
+    "Authentication and Authorization",
+    "Building a Sample API"
+  ]
+}
+
+  
+  
+]
