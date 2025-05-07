@@ -822,7 +822,7 @@ Explore more about ${topicName} through books, research papers, and online resou
                     <input
                       type="text"
                       className="form-control input-search shadow-sm"
-                      placeholder="Enter a topic (e.g., Quantum Computing)"
+                      placeholder="Enter a topic (e.g., C Language)"
                       value={topic}
                       onChange={(e) => setTopic(e.target.value)}
                       aria-label="Topic"
